@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.HHHCChuong5">
+    <include layout="@layout/app_bar"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I. Tính chất vật lý và trạng thái tự nhiên"
+                android:textColor="#2BD532"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" - Glucozơ là chất kết tinh, không màu, nóng chảy ở 146oC (dạng α) và 150oC (dạng β).
+\n - Dễ tan trong nước.\n- Trong máu người có một lượng nhỏ glucozơ, hầu như không đổi (khoảng 0,1 %).
+"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="II. Cấu trúc phân tử"
+                android:textColor="#2BD532"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Dạng mạch hở
+\n - Khử hoàn toàn glucozơ thì thu được hexan. Vậy 6 nguyên tử C của phân tử glucozơ tạo thành 1 mạch hở không phân nhánh.
+\n - Glucozơ có phản ứng tráng bạc, khi tác dụng với nước brom tạo thành axit gluconic, chứng tỏ trong phân tử có nhóm CH=O.
+\n2. Dạng mạch vòng
+\n-Glucozơ kết tinh tạo ra hai dạng tinh thể có nhiệt độ nóng chảy khác nhau. Các dữ kiện thực nghiệm khác đều cho thấy hai dạng tinh thể đó ứng với hai dạng cấu trúc vòng khác nhau.
+"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="III. Tính chất hóa học"
+                android:textColor="#2BD532"
+                android:textSize="30sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a. Tác dụng với Cu(OH)2\n b. Phản ứng tạo este\nc. Oxi hóa glucozơ
+\nd. Phản ứng lên men
+"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

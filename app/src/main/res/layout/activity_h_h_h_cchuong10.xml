@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.HHHCchuong10">
+    <include layout="@layout/app_bar"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I.Tính chất vật lý"
+                android:textColor="#2BD532"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Polime là những chất rắn, không bay hơi, không có nhiệt độ nóng chảy xác định, không nóng chảy cho chất lỏng nhớt, để nguội rắn lại (chất nhiệt dẻo).
+\n - Hầu hết polime không tan trong nước.
+\n- Một số polime có tính dẻo, một số có tính đàn hồi, một số dai, bền, có thể kéo sợi.
+"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="II. Tính chất hóa học"
+                android:textColor="#2BD532"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Phản ứng giữ nguyên mạch polime
+\n2. Phản ứng phân cắt mạch polime
+\n3. Phản ứng khâu mạch polime
+"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="III.Điều chế"
+                android:textColor="#2BD532"
+                android:textSize="30sp" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Phản ứng trùng hợp
+\n2. Phản ứng trùng ngưng"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

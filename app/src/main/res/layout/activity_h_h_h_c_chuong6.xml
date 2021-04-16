@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.HHHCChuong6">
+
+    <include layout="@layout/app_bar"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I.Tính chất vật lý"
+                android:textColor="#2BD532"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" - Chất rắn, dạng tinh thể, không màu, vị hơi ngọt.\n
+- Nhiệt độ nóng chảy cao, dễ tan trong nước vì amino axit tồn tại ở dạng ion lưỡng cực:\n
+- Anilin là chất lỏng, nhiệt độ sôi là 184oC, không màu, rất độc, ít tan trong nước, tan trong ancol và benzen./n
+
+"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="II. Cấu tạo phân tử và tính chất hóa học"
+                android:textColor="#2BD532"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.Cấu tạo phân tử
+\n - Trong phân tử amin đều có nguyên tử nitơ còn một cặp electron tự do chưa liên kết có thể tạo cho – nhận giống NH3.
+\n2. Tính chất hoá học
+\n a. Tính bazơ
+\n b. Phản ứng với axit nitrơ HNO2
+\n c. Phản ứng ankyl hóa
+\nd. Phản ứng thế ở nhân thơm của anilin
+
+"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="III. Ứng dụng và điều chế"
+                android:textColor="#2BD532"
+                android:textSize="30sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Ứng dụng
+\n Các ankylamin được dùng trong tổng hợp hữu cơ, đặc biệt là các điamin được dùng để tổng hợp polime.
+\nd.Anilin là nguyên liệu quan trọng trong công nghiệp phẩm nhuộm (phẩm azo, đen anilin,...), polime (nhựa anilin - fomanđehit,...), dược phẩm (streptoxit, suafaguaniđin,...)
+\n2. Điều chế
+\n- Thay thế nguyên tử H của phân tử amoniac
+\n - Khử hợp chất nitro
+"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

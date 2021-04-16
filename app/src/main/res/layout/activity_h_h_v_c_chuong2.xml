@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.HHVCChuong2">
+    <include layout="@layout/app_bar"></include>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I.Tính chất vật lý"
+                android:textColor="#2BD532"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a. Độ bền: là khả năng chống lại các tác dụng của lực bên ngoài mà không bị phá hỏng.
+\nb. Độ cứng: là khả năng chống lại biến dạng dẻo cục bộ khi có ngoại lực tác dụng lên kim loại thông qua vật nén. Nếu cùng một giá trị lực nén mà vết lõm trên mẫu đo càng lớn thì độ cứng của vật liệu đó càng kém.
+\nĐộ dẻo: là khả năng vật liệu thay đổi hình dáng kích thước mà không bị phá hủy khi chịu tác dụng của lực bên ngoài.
+\nTính dẫn điện: là khả năng cho dòng điện đi qua của kim loại. So sánh tính dẫn nhiệt và dẫn điện ta thấy kim loại nào có tính dẫn nhiệt tốt thì tính dẫn điện cũng tốt và ngược lại.
+"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="II. Tính chất hóa học"
+                android:textColor="#2BD532"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Có tính chất hóa học tương tự của các đơn chất tham gia tạo thành hợp kim"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="II. Ứng dụng"
+                android:textColor="#2BD532"
+                android:textSize="30sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" - Do có tính chất hóa học, vật lí, cơ học rất quý nên hợp kim được sử dụng rộng rãi trong các ngành kinh tế quốc dân
+\n- Có những hợp kim trơ với axit, bazơ và các hóa chất khác dùng chế tạo các máy móc, thiết bị dùng trong nhà máy sản xuất hóa chất
+\n- Có hợp kim chịu nhiệt cao, chịu ma sát mạnh dùng làm ống xả trong động cơ phản lực
+\n- Có hợp kim có nhiệt độ nóng chảy rất thấp dùng chế tạo giàn ống dẫn nước chữa cháy tự động...
+"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.HHHCChuong1">
+    <include layout="@layout/app_bar">
+    </include>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:text="I. Cấu tạo, phân loại"
+            android:textColor="#2BD532"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="1. Cấu tạo"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+            <TextView
+                android:textAlignment="textStart"
+                android:text="  Khi thay nhóm –OH ở nhóm cacboxyl của axit cacboxylic bằng nhóm –OR thì được este.
+    Este đơn giản có công thức cấu tạo như sau:"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="2. Phân loại:"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="a. Este no, đơn chức:\n
+    Công thức phân tử: CmH2mO2 hay CnH2n + 1COOCn'H2n' + 1"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textAlignment="textStart"
+                android:text="b. Este không no, đơn chức:\n
+Este đơn chức, mạch hở, không no có 1 nối đôi: CmH2m - 2O2\n
+ Với n ≥ 2; n’ ≥ 1; m ≥ 4"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="c. Este đa chức\nTạo bởi axit đơn chức và rượu đa chức có dạng: (RCOO)mR’ (nếu gốc R’ là gốc glixerol thì este có dạng lipit (RCOO)3C3H5 với R là gốc axit béo).
+\nTạo bởi axit đa chức và rượu đơn chức có dạng:\nTạo bởi axit đa chức R(COOH)n và rượu đa chức R’(OH) có dạng Rm(COO)nmR’n.
+    Nếu m = n thì tạo este vòng có dạng R(COO)nR’."
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="II. Danh pháp"
+                android:textColor="#2BD532"
+                android:textSize="30sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Tên este = Tên gốc hiđrocacbon R’ + tên anion gốc axit (đuôi at)
+\nTên 1 số gốc axit thường gặp:\n HCOOH: Axit Fomic ⇒ HCOO-: Fomat\nCH3COOH: Axit Axetic ⇒ CH3COO-: Axetat
+\nCH2=CHCOOH: Axit Acrylic ⇒ CH2=CHCOO-: Acrylat\nC6H5COOH: Axit Benzoic ⇒ C6H5COO-: Benzoat
+"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="III. Tính chất vật lý"
+                android:textColor="#2BD532"
+                android:textSize="30sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="1. Trạng thái: Đa số ở trạng thái lỏng. Những este có KLPT rất lớn có thể ở trạng thái rắn (như mỡ động vật, sáp ong …).
+\n2. Nhiệt độ sôi: Thấp, dễ bay hơi do không tạo liên kết hidro giữa các phân tử\n3. Tính tan: Ít tan hoặc không tan trong nước do không tạo liên kết hidro giữa các phân tử với nước.
+"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="IV. Tính chất hóa học"
+                android:textColor="#2BD532"
+                android:textSize="30sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text=" 1. Phản ứng ở nhóm chức\n2. Phản ứng ở gốc hiđrocacbon"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

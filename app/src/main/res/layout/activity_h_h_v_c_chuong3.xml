@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.HHVCChuong3">
+    <include layout="@layout/app_bar"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I. CẶP OXI HOÁ – KHỬ CỦA KIM LOẠI"
+                android:textColor="#2BD532"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dạng oxi hoá và dạng khử của cùng một nguyên tố kim loại tạo nên cặp oxi hoá – khử của kim loại.
+\nThí dụ: Cặp oxi hoá – khử Ag+/Ag; Cu2+/Cu; Fe2+/Fe
+"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="II. Dãy điện hóa kim loại"
+                android:textColor="#2BD532"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/daydienhoa1" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="III.Ý nghĩa của dãy điện hóa"
+                android:textColor="#2BD532"
+                android:textSize="30sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dự đoán chiều của phản ứng oxi hoá – khử theo quy tắc α: Phản ứng giữa hai cặp oxi hoá – khử sẽ xảy ra theo chiều chất oxi hoá mạnh hơn sẽ oxi hoá chất khử mạnh hơn, sinh ra chất oxi hoá yếu hơn và chất khử yếu hơn.
+\nThí dụ: Phản ứng giữa hai cặp Fe2+/Fe và Cu2+/Cu xảy ra theo chiều ion Cu2+  oxi hoá Fe tạo ra ion Fe2+ và Cu.
+"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <ImageView
+                android:src="@drawable/daydienhoa2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

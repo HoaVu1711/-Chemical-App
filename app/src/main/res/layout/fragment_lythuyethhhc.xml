@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#3A933D"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:text="Chuong 1:Tính chất Cua Este"
+                android:id="@+id/btn_chuong1"
+                android:textSize="20sp"
+                android:textColor="#A11545"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:text="Chuong2: tính chất của Glucozo"
+                android:id="@+id/btn_chuong2"
+                android:textSize="20sp"
+                android:textColor="#A11545"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:text="Chuong 3: Tính chất của Sacarozo"
+                android:id="@+id/btn_chuong3"
+                android:textSize="20sp"
+                android:textColor="#A11545"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:text="Chuong 4: Tính chất của Tinh Bột"
+                android:id="@+id/btn_chuong4"
+                android:textSize="20sp"
+                android:textColor="#A11545"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:text="Chuong 5: Tính chất của Xenlulozo"
+                android:id="@+id/btn_chuong5"
+                android:textSize="20sp"
+                android:textColor="#A11545"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:text="Chuong 6: Tính chất của Amin"
+                android:id="@+id/btn_chuong6"
+                android:textSize="20sp"
+                android:textColor="#A11545"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:text="Chuong 7:Tính chất của Axit amin"
+                android:id="@+id/btn_chuong7"
+                android:textSize="20sp"
+                android:textColor="#A11545"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:text="Chuong 8: Tính chất của Peptit"
+                android:id="@+id/btn_chuong8"
+                android:textSize="20sp"
+                android:textColor="#A11545"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:text="Chuong 9: Tính chất của Protein"
+                android:id="@+id/btn_chuong9"
+                android:textSize="20sp"
+                android:textColor="#A11545"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:text="Chuong 10: Tính chất của Polime"
+                android:id="@+id/btn_chuong10"
+                android:textSize="20sp"
+                android:textColor="#A11545"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

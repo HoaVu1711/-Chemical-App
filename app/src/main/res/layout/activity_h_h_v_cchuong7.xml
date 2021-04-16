@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.HHVCchuong7">
+    <include layout="@layout/app_bar"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I. Vị trí và cấu tạo"
+                android:textColor="#2BD532"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Vị trí của kim loại kiềm trong bảng tuần hoàn
+\n-Kim loại kiềm thổ thuộc nhóm IIA của bảng tuần hoàn; trong một chu kì, kiềm thổ đứng sau kim loại kiềm
+\n- - Kim loại kiềm thổ gồm: Beri (Be); Magie (Mg); Canxi (Ca); Stronti (Sr); Bari (Ba); Rađi (Ra) (Rađi là nguyên tố phóng xạ không bền)."
+
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="II. Tính chất vật lý"
+                android:textColor="#2BD532"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Kim loại kiềm IIA gồm: Be: [He]2s2, Mg: [Ar]3s2, Ca: [Ar]4s2, Sr: [Kr]5s2, Ba: [Xe]6s2.
+\n- Là những chất rắn màu trắng bạc hoặc xám nhạt, có ánh bạc, dẫn điện, dẫn nhiệt tốt.
+\n- Nhiệt độ nóng chảy, nhiệt độ sôi tương đối thấp (cao hơn kim loại kiềm).
+\n - Khối lượng riêng tương đối nhỏ, độ cứng tuy cao hơn kim loại kiềm nhưng vẫn nhỏ hơn nhôm.
+"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="II. Tính chất hóa học"
+                android:textColor="#2BD532"
+                android:textSize="30sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Tác dụng với phi kim
+\n2. Tác dụng với nước
+\n3.Tác dụng với axit
+
+"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

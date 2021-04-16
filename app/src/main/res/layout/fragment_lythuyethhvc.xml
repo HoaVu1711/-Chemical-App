@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#D89C44"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:text="Chuong 1:Tính chất kim loại"
+        android:id="@+id/btn_chuong1"
+        android:textSize="20sp"
+        android:textColor="#A11545"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Chuong2: tính chất hợp kim"
+        android:id="@+id/btn_chuong2"
+        android:textSize="20sp"
+        android:textColor="#A11545"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Chuong 3: Dãy điện hóa kim loại"
+        android:id="@+id/btn_chuong3"
+        android:textSize="20sp"
+        android:textColor="#A11545"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Chuong 4: Điện phân kim loại"
+        android:id="@+id/btn_chuong4"
+        android:textSize="20sp"
+        android:textColor="#A11545"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Chuong 5: Ăn mòn ki loại"
+        android:id="@+id/btn_chuong5"
+        android:textSize="20sp"
+        android:textColor="#A11545"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Chuong 6: Kim loại kiềm"
+        android:id="@+id/btn_chuong6"
+        android:textSize="20sp"
+        android:textColor="#A11545"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Chuong 7: Kim loại kiềm thổ"
+        android:id="@+id/btn_chuong7"
+        android:textSize="20sp"
+        android:textColor="#A11545"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

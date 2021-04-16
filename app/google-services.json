@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "836511080709",
+    "project_id": "hoahocvdh",
+    "storage_bucket": "hoahocvdh.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836511080709:android:c70af203ca2c4c7f03176c",
+        "android_client_info": {
+          "package_name": "com.vdh.doan2020"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836511080709-95rcej97pu1874oqrrt8c3ehqhmn70g3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQnw20c_bQuuq82uWFxiJLGu5FJ2KFRls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836511080709-95rcej97pu1874oqrrt8c3ehqhmn70g3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

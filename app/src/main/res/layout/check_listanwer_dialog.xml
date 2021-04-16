@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="#CDB670"
+    android:padding="10dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tv_ds"
+        android:text="Danh Sách Câu Trả Lời"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <GridView
+        android:layout_below="@+id/tv_ds"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:numColumns="3"
+        android:id="@+id/gw_listanswer"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"/>
+
+    <TextView
+        android:id="@+id/tv_ketqua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="372dp"
+        android:layout_marginBottom="357dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnthoat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gw_listanswer"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="74dp"
+        android:text="Đóng" />
+
+    <Button
+        android:id="@+id/btnhoanthanh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gw_listanswer"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="77dp"
+        android:layout_marginRight="11dp"
+        android:text="Nộp bài" />
+</RelativeLayout>

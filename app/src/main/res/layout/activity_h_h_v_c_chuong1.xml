@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.HHVCChuong1">
+
+    <include layout="@layout/app_bar"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I. Vị trí kim loại trong bảng tuần hoàn"
+                android:textColor="#2BD532"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Trong bảng tuần hoàn, các nguyên tố kim loại có mặt ở:
+\n- Nhóm IA (trừ hiđro) và IIA. Các kim loại này là những nguyên tố s.
+\n- Nhóm IIIA (trừ bo), một phần cùa các nhóm IVA, VA, VIA. Các kim loại này là những nguyên tố p.
+\n- Các nhóm B (từ IB đến VIIIB). Các kim loại nhóm B được gọi là những kim loại chuyển tiếp, chúng là những nguyên tố d.
+
+"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="II. Tính chất vật lý của kim loại"
+                android:textColor="#2BD532"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tính chất vật lí chung là tính dẻo, tính dẫn điện, tính dẫn nhiệt và ánh kim.
+\n- Những kim loại có tính dẻo cao là Au, Ag, Al, Cu, Sn,... (dẻo nhất là Au)
+\n- Độ dẫn điện của Ag > Cu > Au > Al > Fe
+\n- Nhiệt độ tăng thì tính dẫn điện cùa kim loại giảm.
+\n- Kim loại nào dẫn điện tốt thì cũng dẫn nhiệt tốt. Tính dẫn nhiệt của kim loại giảm dần theo thứ tự Ag, Cu, Al, Fe,...
+"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="III. Tính chất hóa học của kim loại"
+                android:textColor="#2BD532"
+                android:textSize="30sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Tác dụng với phi kim: hầu hết các kim loại khử được phi kim thành ion âm"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <ImageView
+                android:src="@drawable/kimloai1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Tác dụng với oxi: Ag, Au, Pt không tác dụng"
+                android:textSize="20sp" />
+            <ImageView
+                android:src="@drawable/kimloai2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Tác dụng với axit:"
+                android:textSize="20sp" />
+            <ImageView
+                android:src="@drawable/kimloai3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IV. Điều chế kim loại:"
+                android:textColor="#2BD532"
+                android:textSize="30sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nguyên tắc: khử ion dương kim loại thành kim loại.
+\nChỉ sử dụng được phương pháp điện phân hợp chất nóng chảy, bao gồm:
+\n- Kim loại kiềm: điện phân nóng chảy muối clorua, hiđroxit
+\n- Nhiệt độ tăng thì tính dẫn điện cùa kim loại giảm.
+\n- Kim loại nào dẫn điện tốt thì cũng dẫn nhiệt tốt. Tính dẫn nhiệt của kim loại giảm dần theo thứ tự Ag, Cu, Al, Fe,...
+\nĐIỀU CHẾ BẰNG PHƯƠNG PHÁP NHIỆT LUYỆN
+"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <ImageView
+                android:src="@drawable/kimlioai4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

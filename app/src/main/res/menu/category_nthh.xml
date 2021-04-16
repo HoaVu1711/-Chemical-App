@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="PhiKim"
+        android:id="@+id/pl_phikim"
+        />
+    <item android:title="KhiTro"
+        android:id="@+id/pl_khitro"
+        />
+    <item android:title="KimLoaiKiem"
+        android:id="@+id/pl_phimloaikiem"
+        />
+    <item android:title="A Kim"
+        android:id="@+id/pl_akim"
+        />
+    <item android:title="Halogen"
+        android:id="@+id/pl_halogen"
+        />
+    <item android:title="KimLoaiKiemTho"
+        android:id="@+id/pl_kimloaikiemtho"
+        />
+    <item android:title="KimLoaiChuyenTiep"
+        android:id="@+id/pl_kimloaichichuyentiep"
+        />
+    <item android:title=" Actini"
+        android:id="@+id/pl_actini"
+        />
+
+</menu>

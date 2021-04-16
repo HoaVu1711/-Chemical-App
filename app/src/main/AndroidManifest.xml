@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vdh.doan2020">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UI.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UI.Comment_activity" />
+        <activity android:name=".UI.HHVCchuong7" />
+        <activity android:name=".UI.HHVCChuong6" />
+        <activity android:name=".UI.HHVCchuong5" />
+        <activity android:name=".UI.HHVCChuong4" />
+        <activity android:name=".UI.HHVCChuong3" />
+        <activity android:name=".UI.HHVCChuong2" />
+        <activity android:name=".UI.HHVCChuong1" />
+        <activity android:name=".UI.HHHCchuong10" />
+        <activity android:name=".UI.HHHChuong9" />
+        <activity android:name=".UI.HHHCChuong8" />
+        <activity android:name=".UI.HHHCChuong7" />
+        <activity android:name=".UI.HHHCChuong6" />
+        <activity android:name=".UI.HHHCChuong5" />
+        <activity android:name=".UI.HHHChuong4" />
+        <activity android:name=".UI.HHHCChuong3" />
+        <activity android:name=".UI.HHHCChuong2" />
+        <activity android:name=".UI.HHHCChuong1" />
+        <activity android:name=".UI.QuestionPageActivity" />
+        <activity android:name=".UI.MainActivity">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_home"
+        android:title="Bảng Tuần hoàn"
+        android:icon="@drawable/ic_btbchot"
+        />
+    <item
+        android:id="@+id/item_lythuyet"
+        android:title="Lý Thuyết"
+        android:icon="@drawable/ic_lythuyet"
+        />
+    <item
+        android:id="@+id/item_baitap"
+        android:title="Bài Tập"
+        android:icon="@drawable/ic_tracnghiem"
+        />
+    <item
+        android:id="@+id/item_diem"
+        android:title="Điểm"
+        android:icon="@drawable/ic_diem"
+        />
+
+
+</menu>
